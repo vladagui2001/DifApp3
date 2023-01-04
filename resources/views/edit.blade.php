@@ -13,7 +13,7 @@
 
             <div class="Genero">
                 <label for=''>Género:</label> <br>
-                <label><input name="Genero" type="radio" value="Hombre">Hombre</label>
+                <label><input name="Genero" type="radio" value="Hombre" checked>Hombre</label>
                 <label><input name="Genero" type="radio" value="Mujer">Mujer</label>
                 <label><input name="Genero" type="radio" value="Otro">Otro</label>
             </div><br>
@@ -24,7 +24,7 @@
             <div class="Discap">
             <label for=''>¿Tiene alguna discapacidad?</label> <br>
                 <label><input name="Discap" type="radio" value="Si">Sí</label>
-                <label><input name="Discap" type="radio" value="No">No</label>
+                <label><input name="Discap" type="radio" value="No" checked>No</label>
             </div><br>
 
             <label for=''>¿Que discapacidad tiene? (Si aplica):</label>
@@ -35,7 +35,7 @@
              
             <div class="NomApoyo">
             <label for=''>Apoyo que desea solicitar:</label> <br>
-                <label><input name="NomApoyo" type="radio" value="MilDias">Mil Días de Vida</label>
+                <label><input name="NomApoyo" type="radio" value="MilDias" checked>Mil Días de Vida</label>
                 <label><input name="NomApoyo" type="radio" value="CincoAños">Menores de 5 años</label>
                 <label><input name="NomApoyo" type="radio" value="PersonasDiscp">Personas con Discapacidad</label>
             </div><br>
