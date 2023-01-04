@@ -31,7 +31,7 @@ class RegisterController extends Controller
      */
     protected function redirectTo()
     {
-        return '/Users'; // return dynamicaly generated URL.
+        return 'Main'; // return dynamicaly generated URL.
     }
 
     /**
